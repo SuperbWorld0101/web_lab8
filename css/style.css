@@ -3,43 +3,48 @@ body{
   overflow: hidden;
 }
 
-#table2{
+#navebar{
   float: left;
   width: 100%;
   position: relative;
+} 
+#table2{				 
   list-style-type: none;
   margin: 0;
   padding: 0;
-}
-
-#table2 li{
   position: relative;
   left: 50%;
   float: left;
 }
 
-#table2 li a{
+#table2 li{
   float: left;
   position: relative;
   right: 50%;
   display: block;
 }
 
-#table2 li a:hover{
+#table2 li a{
   display: block;
   padding: 10px 20px;
   color: #fff;
   text-decoration: none;
+}
+#table2 li a:hover{							
   background-color: #000;
+}
+#on{		 
   text-decoration: underline overline;
 }
 
-#table1{
+#sidebar{
   position: fixed;
   right:0%;
   background-color: red;
   height: 100%;
   width: 20%;
+} 
+#table1{			 
   list-style-type: none;
   text-align: center;
   padding: 0;
@@ -50,6 +55,9 @@ body{
   padding: 15px 0;
   color: #fff;
   text-decoration: none;
+}
+
+#table li a:hover{
   background-color: #000;
 }
 
